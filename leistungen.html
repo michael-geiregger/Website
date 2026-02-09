@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leistungen | Michael Geiregger</title>
+    <meta name="description"
+        content="Wie ich dich begleite. 1:1 Coaching, Psychedelic Breath, Gene Keys und Klarheitsgespräch. Finde den Weg, der zu dir passt.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Page Loader -->
+    <div class="page-loader" id="pageLoader">
+        <div class="loader-text">
+            Dein <span class="highlight">Weg</span> zu mir.
+        </div>
+    </div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Cursor Glow -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- NAVIGATION -->
+    <nav class="nav" id="mainNav">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">
+                Michael Geiregger
+                <span>Coach & Mentor</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="ueber-mich.html">Über mich</a></li>
+                <li><a href="leistungen.html" class="active">Leistungen</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="podcast.html">Podcast</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="kontakt.html" class="nav-cta">Klarheitsgespräch</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Menü öffnen">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" style="min-height: 60vh;">
+        <div class="hero-bg">
+            <div class="hero-bg-gradient"></div>
+            <div class="hero-orb"></div>
+        </div>
+        <canvas class="hero-particles" id="heroParticles"></canvas>
+        <div class="container hero-content">
+            <h1 class="reveal">
+                Wie ich dich <span class="highlight">begleite</span>
+            </h1>
+            <p class="reveal">
+                Jeder Mensch ist einzigartig. Deshalb arbeite ich mit verschiedenen Methoden, die genau dort ansetzen,
+                wo du gerade stehst. Kein Schema F, sondern echte, individuelle Begleitung.
+            </p>
+        </div>
+    </section>
+
+    <!-- OFFERINGS SECTION -->
+    <section class="section">
+        <div class="container">
+            <div class="section-label reveal">Angebot</div>
+            <h2 class="section-title reveal">Finde den Weg, der zu dir passt</h2>
+            <p class="section-text reveal">
+                Ob tiefgehende Einzelarbeit, kraftvolle Atemreisen oder ein erstes unverbindliches Gespräch — hier
+                findest du den passenden Einstieg für deine Transformation.
+            </p>
+
+            <div class="problem-grid stagger-children" style="margin-top: 4rem;">
+
+                <!-- 1:1 Coaching -->
+                <div class="problem-card reveal" style="--i: 0">
+                    <div class="problem-icon gold">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#C8963E" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <h3>1:1 Coaching</h3>
+                    <p>In individuellen Coaching-Sessions arbeiten wir gemeinsam an deinen tiefsten Themen. Mit Methoden
+                        aus NLP, Hypnose und mentaler Arbeit lösen wir unbewusste Blockaden. Du erhältst Werkzeuge, die
+                        sofort wirken — für mehr Klarheit, Gelassenheit und emotionale Freiheit in deinem Alltag.</p>
+                </div>
+
+                <!-- Breathwork -->
+                <div class="problem-card reveal" style="--i: 1">
+                    <div class="problem-icon sage">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#5A6952" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+                        </svg>
+                    </div>
+                    <h3>Atemarbeit / Psychedelic Breath</h3>
+                    <p>Durch kraftvolle Atemtechniken erreichst du veränderte Bewusstseinszustände, die tiefgreifende
+                        Erkenntnisse und emotionale Befreiung ermöglichen. Psychedelic Breath ist eine der intensivsten
+                        Erfahrungen, die du machen kannst — ganz ohne externe Substanzen. Lass los, was dich belastet.
+                    </p>
+                </div>
+
+                <!-- Gene Keys -->
+                <div class="problem-card reveal" style="--i: 2">
+                    <div class="problem-icon earth">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#7d6e5d" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M2 12h20"></path>
+                            <path d="M2 12l5-5"></path>
+                            <path d="M2 12l5 5"></path>
+                            <path d="M22 12l-5 5"></path>
+                            <path d="M22 12l-5-5"></path>
+                        </svg>
+                    </div>
+                    <h3>Gene Keys Reading</h3>
+                    <p>Dein Gene Keys Profil ist wie eine Landkarte deiner Seele. In einem personalisierten Reading
+                        entdecken wir gemeinsam deine einzigartigen Gaben, Schatten und höchsten Potenziale. Du
+                        verstehst, warum du bist, wie du bist — und wie du dein volles Potenzial entfalten kannst.</p>
+                </div>
+
+                <!-- Clarity Call -->
+                <div class="problem-card reveal" style="--i: 3; background-color: var(--color-warm-white);">
+                    <div class="problem-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#3D5165" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3>Klarheitsgespräch</h3>
+                    <p>Dein kostenloser Einstieg. In einem unverbindlichen Gespräch lernen wir uns kennen, schauen
+                        gemeinsam auf deine aktuelle Situation und finden heraus, welcher Weg für dich der richtige ist.
+                        Keine Verpflichtung, kein Druck — nur Klarheit.</p>
+                    <a href="kontakt.html" class="btn btn-primary" style="margin-top: 1rem;">Jetzt Gespräch buchen
+                        &rarr;</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- METHODOLOGY SECTION (Reuse image or similar) -->
+    <section class="method-section">
+        <div class="container">
+            <div class="method-layout">
+                <div class="reveal-right">
+                    <div class="section-label">Wirkung</div>
+                    <h2 class="section-title">Nicht an Symptomen arbeiten,<br>sondern an der Wurzel</h2>
+                    <p class="section-text">
+                        Egal für welchen Weg du dich entscheidest — mein Ziel ist immer nachhaltige Veränderung.
+                        Wir kratzen nicht an der Oberfläche. Wir gehen dorthin, wo die wirklichen Hebel liegen.
+                    </p>
+                </div>
+                <div class="method-visual reveal-left">
+                    <div class="method-image-wrap">
+                        <img src="https://michael-geiregger.github.io/Homepage/images/studio-room.jpg" alt="Atmosphäre">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS (Simplified) -->
+    <!-- ... (Included in index, maybe link to it or repeat a key quote) -->
+
+    <!-- CTA SECTION -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="section-title reveal">Bereit für den nächsten Schritt?</h2>
+                <a href="kontakt.html" class="btn btn-primary reveal" style="margin-top: 24px;">
+                    Lass uns sprechen
+                    <span class="btn-arrow">&rarr;</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-brand-name">Michael Geiregger</div>
+                    <p class="footer-brand-tagline">
+                        Coach & Mentor für Unternehmer, die Freiheit und Klarheit suchen.
+                        Weil du mehr verdienst als nur zu funktionieren.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/michael_geiregger/" target="_blank" rel="noopener"
+                            aria-label="Instagram">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.069-4.85.069-3.204 0-3.584-.011-4.849-.069-3.225-.149-4.771-1.664-4.919-4.919-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                                    fill="currentColor" />
+                            </svg>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                                    fill="currentColor" />
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/michael-geiregger/" target="_blank" rel="noopener"
+                            aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+                                    fill="currentColor" />
+                            </svg>
+                        </a>
+                        <a href="https://www.youtube.com/@ZwischenAlltagundUniversum" target="_blank" rel="noopener"
+                            aria-label="YouTube">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
+                                    fill="currentColor" />
+                            </svg>
+                        </a>
+                        <a href="https://open.spotify.com/show/zwischen-alltag-und-universum" target="_blank"
+                            rel="noopener" aria-label="Spotify">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.26.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.24 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"
+                                    fill="currentColor" />
+                            </svg>
+                        </a>
+                        <a href="https://podcasts.apple.com/jm/podcast/zwischen-alltag-und-universum-der-podcast-von-jessi/id1813643836"
+                            target="_blank" rel="noopener" aria-label="Apple Podcasts">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M17.4,6.6c-1.6-1.6-3.7-2.5-5.9-2.5c-2.3,0-4.4,0.9-5.9,2.5l-1.4-1.4c1.9-2,4.6-3.1,7.3-3.1s5.4,1.1,7.3,3.1L17.4,6.6z M14.6,9.4 c-0.8-0.8-1.9-1.3-3.1-1.3c-1.2,0-2.3,0.5-3.1,1.3l-1.4-1.4c1.2-1.2,2.8-1.9,4.5-1.9s3.4,0.7,4.5,1.9L14.6,9.4z M12,11 c-0.6,0-1,0.4-1,1v5c0,0.6,0.4,1,1,1s1-0.4,1-1v-5C13,11.4,12.6,11,12,11z M12,19c-0.6,0-1,0.4-1,1s0.4,1,1,1s1-0.4,1-1 S12.6,19,12,19z"
+                                    fill="currentColor" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Menü</h4>
+                    <ul>
+                        <li><a href="index.html">Startseite</a></li>
+                        <li><a href="ueber-mich.html">Über mich</a></li>
+                        <li><a href="leistungen.html">Leistungen</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Angebote</h4>
+                    <ul>
+                        <li><a href="kontakt.html">Klarheitsgespräch</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="podcast.html">Podcast</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Rechtliches</h4>
+                    <ul>
+                        <li><a href="#">Impressum</a></li>
+                        <li><a href="#">Datenschutz</a></li>
+                        <li><a href="#">AGB</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2026 Michael Geiregger. Alle Rechte vorbehalten.</span>
+                <span>Mit Leidenschaft gebaut.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
