@@ -404,7 +404,7 @@ a {
     height: 100%;
     object-fit: cover;
     object-position: center 20%;
-    opacity: 0.5;
+    opacity: 0.6;
     filter: grayscale(15%) contrast(1.05) sepia(8%);
 }
 
@@ -1977,8 +1977,8 @@ a {
     }
 
     .hero-portrait img {
-        opacity: 0.4;
-        object-position: 85% 15%;
+        opacity: 0.7;
+        object-position: 15% 15%;
     }
 
     .newsletter-form {
