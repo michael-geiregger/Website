@@ -302,8 +302,7 @@ a {
     display: flex;
     align-items: center;
     overflow: hidden;
-    background: #f5f0e6;
-    /* "Schlamm" tone */
+    background: #ffffff;
 }
 
 .hero-bg {
@@ -405,7 +404,7 @@ a {
     height: 100%;
     object-fit: cover;
     object-position: center 20%;
-    opacity: 0.35;
+    opacity: 0.5;
     filter: grayscale(15%) contrast(1.05) sepia(8%);
 }
 
@@ -1963,21 +1962,23 @@ a {
 
     .hero-buttons {
         flex-direction: column;
-        padding: 0 40px;
-        /* Padding for narrower buttons */
+        padding: 0 24px;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .hero-buttons .btn {
         text-align: center;
         justify-content: center;
         width: 100%;
-        /* Fill container width but constrained by padding */
+        max-width: 100%;
+        padding: 16px 20px;
+        box-sizing: border-box;
     }
 
     .hero-portrait img {
-        opacity: 0.2;
-        object-position: 70% 15%;
-        /* Shift further right */
+        opacity: 0.4;
+        object-position: 85% 15%;
     }
 
     .newsletter-form {
