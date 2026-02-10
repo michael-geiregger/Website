@@ -303,6 +303,7 @@ a {
     align-items: center;
     overflow: hidden;
     background: #f5f0e6;
+    /* "Schlamm" tone */
 }
 
 .hero-bg {
@@ -315,9 +316,8 @@ a {
     position: absolute;
     inset: 0;
     background:
-        radial-gradient(ellipse 80% 60% at 70% 50%, rgba(200, 150, 62, 0.1) 0%, transparent 60%),
-        radial-gradient(ellipse 60% 80% at 30% 70%, rgba(232, 224, 208, 0.5) 0%, transparent 60%),
-        radial-gradient(ellipse 50% 50% at 80% 20%, rgba(200, 150, 62, 0.06) 0%, transparent 60%);
+        radial-gradient(ellipse 80% 60% at 70% 50%, rgba(200, 150, 62, 0.05) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 80% at 30% 70%, rgba(232, 224, 208, 0.3) 0%, transparent 60%);
     animation: heroGlow 8s ease-in-out infinite alternate;
 }
 
@@ -344,7 +344,7 @@ a {
 .hero-orb:nth-child(1) {
     width: 400px;
     height: 400px;
-    background: rgba(200, 150, 62, 0.08);
+    background: rgba(200, 150, 62, 0.04);
     top: 10%;
     right: -5%;
     animation-delay: 0s;
@@ -353,7 +353,7 @@ a {
 .hero-orb:nth-child(2) {
     width: 350px;
     height: 350px;
-    background: rgba(232, 224, 208, 0.4);
+    background: rgba(232, 224, 208, 0.2);
     top: 60%;
     right: 15%;
     animation-delay: -7s;
@@ -362,7 +362,7 @@ a {
 .hero-orb:nth-child(3) {
     width: 250px;
     height: 250px;
-    background: rgba(200, 150, 62, 0.06);
+    background: rgba(200, 150, 62, 0.03);
     bottom: 10%;
     left: 40%;
     animation-delay: -14s;
