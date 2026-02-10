@@ -945,15 +945,42 @@ a {
     height: 24px;
 }
 
-.recent-episodes-list {
-    margin-top: 48px;
-    border-radius: 24px;
+.youtube-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    /* 16:9 Aspect Ratio */
+    border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.08);
+    background: #000;
+}
+
+.youtube-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.recent-episodes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.recent-episodes-grid .player-card {
+    padding: 16px;
+    gap: 12px;
 }
 
 @media (max-width: 768px) {
     .podcast-players-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .recent-episodes-grid {
         grid-template-columns: 1fr;
     }
 }
